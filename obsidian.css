@@ -1,1 +1,41 @@
+  
+/* 标题栏字体居中，加粗 */
+.workspace .mod-root .workspace-tab-header-inner-title {
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Hn 标题行高 */
+.HyperMD-header .cm-header-1, .HyperMD-header .cm-header-2, .HyperMD-header .cm-header-3, .HyperMD-header .cm-header-4, .HyperMD-header .cm-header-5, .HyperMD-header .cm-header-6 {
+    line-height: 2;
+}
+
+/* 引用 */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    font-family: 霞鹜文楷;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before, .markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+    border-left: 5px solid var(--blockquote-border-color);
+}
+
+/* 列表颜色 */
+.markdown-source-view.mod-cm6 .cm-formatting-list-ul, .markdown-source-view.mod-cm6 .cm-formatting-list-ol {
+    white-space: pre;
+    color: #61afef;
+}
+
+
+/* 侧边栏folder字体加粗 */
+.nav-folder-title-content {
+    font-weight: bold;
+}
+
 
